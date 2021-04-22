@@ -16,12 +16,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 <html <?php language_attributes(); ?>>
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171446941-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71526947-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-171446941-1');
+  gtag('config', 'UA-71526947-1');
 </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
