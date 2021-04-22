@@ -1,0 +1,51 @@
+// Colors
+
+.entry-content {
+	.has-white-background-color {
+		background-color: #fff;
+	}
+	
+	.has-white-color {
+		color: #fff;
+	}
+
+	.has-black-background-color {
+		background-color: #212529;
+	}
+	
+	.has-black-color {
+		color: #212529;
+	}
+
+	.has-green-background-color {
+		background-color: $primary;
+	}
+	
+	.has-green-color {
+		color: $primary;
+	}
+	
+	.has-purple-background-color {
+		background-color: $secondary;
+	}
+	
+	.has-purple-color {
+		color: $secondary;
+	}
+	
+	.has-light-gray-background-color {
+		background-color: $lightgray;
+	}
+	
+	.has-light-gray-color {
+		color: $lightgray;
+	}
+	
+	.has-dark-gray-background-color {
+		background-color: $darkgray;
+	}
+	
+	.has-dark-gray-color {
+		color: $darkgray;
+	}
+}

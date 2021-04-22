@@ -1,0 +1,30 @@
+// Fonts
+@import "fonts";
+
+// Layouts
+@import "layouts/body";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/sidebar";
+@import "layouts/woocommerce";
+
+// Templates
+@import "templates/home";
+@import "templates/single-blog";
+
+// Slick
+// @import "slick";
+// @import "slick-theme";
+
+// Components 
+@import "components/colors";
+@import "components/custom-blocks";
+@import "components/buttons";
+@import "components/divider";
+@import "components/newsbox";
+@import "components/shadowbox";
+@import "components/testimonials";
+@import "components/page-header";
+@import "components/galleries";
+@import "components/woocommerce";
+@import "components/testimonials";

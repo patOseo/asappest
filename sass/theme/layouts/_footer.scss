@@ -1,0 +1,71 @@
+footer.site-footer {
+	.footer-social {
+		margin-top: 1rem;
+		font-size: 1.25rem;
+
+		a {
+			margin: 0 .25rem;
+		}
+	}
+
+	.footer-widgets {
+		padding: 2rem 0;
+		border-top: 4px solid $primary;
+		background: #181425;
+		color: $white;
+
+		p {
+			color: $white;
+		}
+
+		h4 {
+			@include media-breakpoint-down(md) {
+				margin-top: 2rem;
+			}
+		}
+
+		input, textarea {
+			border-radius: 6px !important;
+		}
+
+		.gform_heading {
+			display: none;
+		}
+
+		.gform_button {
+			padding: .5rem 1rem;
+    		font-size: 1rem;
+    		line-height: 1.5;
+    		border-radius: .2rem;
+			color: #fff;
+    		background-color: #00a950;
+    		border-width: 0 !important;
+    		transition: 0.2s;
+
+    		&:hover {
+    			background-color: darken($primary, 10%);
+    		}
+		}
+	}
+
+	#wrapper-footer-full, #wrapper-static-hero {
+		background-color: transparent;
+	}
+
+	.site-info {
+		padding: 3rem 0;
+		background: #120f1c;
+		color: $white;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+
+	a {
+		color: $white;
+		&:hover {
+			color: lighten($primary, 25%);
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.woocommerce, .woocommerce-page {
+	ul.products {
+		li.product {
+			@include media-breakpoint-down(sm) {
+				width: 100%;
+			}
+		}
+	}
+}

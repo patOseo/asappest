@@ -1,0 +1,49 @@
+// Testimonials
+
+.testimonials {
+	.card-columns {
+		column-count: 1;
+		@include media-breakpoint-up(md) {
+			column-count: 2;
+		}
+		@include media-breakpoint-up(lg) {
+			column-count: 3;
+		}
+	}
+
+	.card {
+		margin-bottom: 2rem;
+		padding: 1rem;
+		box-shadow: 1px 5px 20px -6px rgba(97,96,96,.25);
+	}
+
+	.single-testimonial {
+		text-align: center;
+		transition: 0.2s;
+	
+		i.fa {
+			margin-bottom: .5rem;
+			font-size: 1.5rem;
+		}
+	
+		i {
+			font-size: 1rem;
+		}
+	
+		.divider {
+			margin: 1rem auto;
+		}
+	}
+}
+
+// Easy Testimonials
+.easy_testimonial {
+	padding: 1rem;
+    border-left: 6px solid #281f46;
+    background: #eaeaea;
+    border-radius: 3px;
+}
+
+.easy_t_ratings {
+	font-weight: bold;
+}

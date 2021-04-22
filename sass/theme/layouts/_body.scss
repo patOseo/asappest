@@ -1,0 +1,42 @@
+body {
+	-webkit-font-smoothing: antialiased;
+
+	a {
+		transition: 0.2s;
+	}
+}
+
+.likeh1 {
+	font-family: $headings-font-family;
+	font-size: 2.5rem;
+}
+
+.entry-content {
+	.alignfull {
+		width: 100vw;
+		margin: 3rem 0;
+		padding: 3rem 1rem;
+		margin-left: calc(48.33% - 50vw);
+
+		@include media-breakpoint-up(lg) {
+			margin-left: calc(49.33% - 50vw);
+			padding: 3rem 0;
+		}
+
+    	.wp-block-columns {
+    		margin: 0 auto;
+    		padding: 0 15px;
+    		max-width: 1140px;
+    	}
+	}
+}
+
+.entry-content img {
+	margin-bottom: 1rem;
+	border-radius: 6px;
+	box-shadow: 1px 5px 26px -20px #616060;
+}
+
+.entry-content .no-shadow img {
+	box-shadow: none;
+}

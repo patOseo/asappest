@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('/wp-content/themes/asappest/fonts/Jost-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/wp-content/themes/asappest/fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('/wp-content/themes/asappest/fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/wp-content/themes/asappest/fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+        url('/wp-content/themes/asappest/fonts/ProximaNovaT-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/wp-content/themes/asappest/fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('/wp-content/themes/asappest/fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
