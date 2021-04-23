@@ -25,7 +25,7 @@ $default_bg = get_field('default_header_background_image', 'option');
 .page-header:before {background: linear-gradient(#229a5b,#065029), url('<?php echo $featuredimg; ?>') no-repeat center center;background-color:white;background-size:cover;}
 </style>
 <div class="page-header">
-	<span class="likeh1"><?php echo $posttitle; ?></span><br>
+	<h1><?php echo $posttitle; ?></h1>
 	<div class="entry-meta">
 
 		<?php // understrap_posted_on(); ?>

@@ -99,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="top-bar-right col-md-4">
 				<?php if(have_rows('buttons', 'option')): ?>
 					<?php while(have_rows('buttons', 'option')): the_row(); ?>
-						<a href="<?php the_sub_field('button_link'); ?>" class="btn btn-sm btn-white"<?php if(get_sub_field('open_in_new_tab')): ?> target="_blank"<?php endif; ?>><?php the_sub_field('button_text'); ?></a>
+						<a href="<?php the_sub_field('button_link'); ?>" class="btn btn-sm btn-white"<?php if(get_sub_field('open_in_new_tab')): ?> rel="noopener,noreferrer" target="_blank"<?php endif; ?>><?php the_sub_field('button_text'); ?></a>
 					<?php endwhile; ?>
 				<?php endif; ?>
 			</div>
