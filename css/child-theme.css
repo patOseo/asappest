@@ -11816,4 +11816,50 @@ a.added_to_cart {
     color: #fff;
     background: #332658; }
 
+.wc-stripe-elements-field, .wc-stripe-iban-element-field,
+#add_payment_method #payment ul.payment_methods .stripe-card-group, .woocommerce-checkout #payment ul.payment_methods .stripe-card-group {
+  width: 100%; }
+
+.testimonials .card-columns {
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1; }
+  @media (min-width: 768px) {
+    .testimonials .card-columns {
+      -webkit-column-count: 2;
+         -moz-column-count: 2;
+              column-count: 2; } }
+  @media (min-width: 992px) {
+    .testimonials .card-columns {
+      -webkit-column-count: 3;
+         -moz-column-count: 3;
+              column-count: 3; } }
+
+.testimonials .card {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  -webkit-box-shadow: 1px 5px 20px -6px rgba(97, 96, 96, 0.25);
+          box-shadow: 1px 5px 20px -6px rgba(97, 96, 96, 0.25); }
+
+.testimonials .single-testimonial {
+  text-align: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .testimonials .single-testimonial i.fa {
+    margin-bottom: .5rem;
+    font-size: 1.5rem; }
+  .testimonials .single-testimonial i {
+    font-size: 1rem; }
+  .testimonials .single-testimonial .divider {
+    margin: 1rem auto; }
+
+.easy_testimonial {
+  padding: 1rem;
+  border-left: 6px solid #281f46;
+  background: #eaeaea;
+  border-radius: 3px; }
+
+.easy_t_ratings {
+  font-weight: bold; }
+
 /*# sourceMappingURL=child-theme.css.map */

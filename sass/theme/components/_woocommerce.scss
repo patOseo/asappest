@@ -16,3 +16,8 @@ a.added_to_cart {
 		background: darken($secondary, 10%);
 	}
 }
+
+.wc-stripe-elements-field, .wc-stripe-iban-element-field,
+#add_payment_method #payment ul.payment_methods .stripe-card-group, .woocommerce-checkout #payment ul.payment_methods .stripe-card-group {
+	width: 100%;
+}
