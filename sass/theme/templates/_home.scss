@@ -1,10 +1,15 @@
 .home-header {
 	position: relative;
+	padding: 5rem 0;
 	min-height: 520px;
 	// background-image: url('/wp-content/themes/asappest/images/home-header.jpg');
 	// background-size: cover;
 	// background-repeat: no-repeat;
 	// background-position: center center;
+
+	.partnership-area {
+		color: $white;
+	}
 
 	&:before {
 		content: "";
@@ -24,11 +29,12 @@
 	}
 
 	.home-callout {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		max-width: 620px;
+		// position: absolute;
+		// top: 50%;
+		// left: 50%;
+		// transform: translate(-50%,-50%);
+		margin: 0 auto;
+		max-width: 1110px;
 		text-align: center;
 
 		@include media-breakpoint-down(md) {
