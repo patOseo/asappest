@@ -37,15 +37,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row">
 					<div class="col-md-7">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-12">
 								<h4 style="margin-bottom:3rem;">ASAP Pest Control Inc.</h4>
 								<p>ASAP Pest Control, Inc are pest control specialists serving Southern Ontario. Keeping you comfortable in your environment.</p>
 								<p>For Immediate Service:</p>
 								<a href="tel:519-317-1170" class="btn btn-primary btn-large">Call Now</a>
 							</div>
-							<div class="col-md-6 text-center">
+							<!-- <div class="col-md-6 text-center">
 								<img src="/wp-content/themes/asappest/images/LONDON_2021.png" alt="ASAP Pest Control Consumer Choice Award 2022">
-							</div>
+							</div> -->
 							
 							<h4 style="margin-top:2rem;">Testimonials</h4>
 							<p><i>“Jamie Drennan has been providing pest control service (at our store) location. The extent of infestation was significant and Jamie has made weekly visits to ensure the rodent population was brought down to a reasonable threshold. During this time, Jamie has been extremely helpful, and courteous while providing these services, knowledgeable and friendly.”</i></p>

@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="home-ctas row">
 				<div class="col-md-12 mb-4"><a href="<?php the_field('button_link'); ?>" class="btn btn-lg btn-white"><?php the_field('button_text'); ?></a></div>
 			</div>
-			<img src="/wp-content/themes/asappest/images/LONDON_2021.png" alt="ASAP Pest Control Consumer Choice Award 2022" width="160" height="190">
+			<!-- <img src="/wp-content/themes/asappest/images/LONDON_2021.png" alt="ASAP Pest Control Consumer Choice Award 2022" width="160" height="190"> -->
 		</div>
 		<!--
 		<div class="col-md-6 align-self-center">
