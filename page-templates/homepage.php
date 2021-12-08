@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
 <style>
-.home-header:before {background: linear-gradient(#33ff94,#2ef08a), url('/wp-content/themes/asappest/images/asap-home-header.jpg') no-repeat center center;background-color:white;background-size:cover;}
+.home-header:before {background: linear-gradient(#33ff94,#2ef08a), url('/wp-content/themes/asappest/images/londonknights.jpg') no-repeat center center;background-color:white;background-size:cover;}
 </style>
 <header class="home-header">
 	<div class="home-callout row justify-content-center align-items-center">
@@ -29,18 +29,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="home-ctas row">
 				<div class="col-md-12 mb-4"><a href="<?php the_field('button_link'); ?>" class="btn btn-lg btn-white"><?php the_field('button_text'); ?></a></div>
 			</div>
-			<!-- <img src="/wp-content/themes/asappest/images/LONDON_2021.png" alt="ASAP Pest Control Consumer Choice Award 2022" width="160" height="190"> -->
+			
 		</div>
-		<!--
+		
 		<div class="col-md-6 align-self-center">
 			<div class="partnership-area">
 				<div class="col-12">
-					<p class="h2 text-light">Proud Partners of the London Knights</p>
-					<img src="/wp-content/themes/asappest/images/lk-logo.png" alt="London Knights Logo">
+					<img src="/wp-content/themes/asappest/images/knights-logo.png" alt="London Knights Logo">
 				</div>
 			</div>
 		</div>
-		-->
+		
 	</div>
 </header>
 
