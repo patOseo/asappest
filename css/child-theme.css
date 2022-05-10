@@ -11339,6 +11339,12 @@ body {
     display: inline-block; }
     .top-bar .header-cart .woocommerce-Price-amount {
       color: #fff; }
+  @media (max-width: 991.98px) {
+    .top-bar {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1020; } }
 
 .top-header-bar {
   padding: .75rem 2rem;

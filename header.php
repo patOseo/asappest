@@ -45,8 +45,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="site" id="page">
 
 	<div class="top-bar">
+		<a href="tel:<?php the_field('phone_number', 'option'); ?>" class="btn btn-sm btn-white text-dark text-left d-inline-block d-md-none">Pest Problem? Let Us Help. <?php the_field('phone_number', 'option'); ?></a>
 		<div class="header-cart">
-			<i class="fa fa-shopping-cart"></i> &nbsp; <a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total(); ?></a>
+			 <a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><i class="fa fa-shopping-cart mr-2"></i><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?><span class="d-none d-md-inline"> - <?php echo WC()->cart->get_cart_total(); ?></span></a>
 		</div>
 	</div>
 
@@ -94,12 +95,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<strong><i><?php the_field('tagline', 'option'); ?></i></strong>
 			</div>
 			<div class="top-bar-center col-md-4">
-				<strong>For Immediate Service, Call or Text <a href="tel:<?php the_field('phone_number', 'option'); ?>"><?php the_field('phone_number', 'option'); ?></a></strong>
+				<strong>For Immediate Service, Call or Text<br class="d-md-none"> <a href="tel:<?php the_field('phone_number', 'option'); ?>" class="mb-3 md-mb-0"><?php the_field('phone_number', 'option'); ?></a></strong>
 			</div>
-			<div class="top-bar-right col-md-4">
+			<div class="top-bar-right col-md-4 mt-1 md-mt-0">
 				<?php if(have_rows('buttons', 'option')): ?>
 					<?php while(have_rows('buttons', 'option')): the_row(); ?>
-						<a href="<?php the_sub_field('button_link'); ?>" class="btn btn-sm btn-white"<?php if(get_sub_field('open_in_new_tab')): ?> rel="noopener,noreferrer" target="_blank"<?php endif; ?>><?php the_sub_field('button_text'); ?></a>
+						<a href="<?php the_sub_field('button_link'); ?>" class="btn btn-sm btn-white <?php if(get_sub_field('show_on_mobile') != 1) { echo "d-none d-md-inline-block"; } ?>"<?php if(get_sub_field('open_in_new_tab')): ?> rel="noopener,noreferrer" target="_blank"<?php endif; ?>><?php the_sub_field('button_text'); ?></a>
 					<?php endwhile; ?>
 				<?php endif; ?>
 			</div>
