@@ -11402,6 +11402,10 @@ body {
 .navbar-toggler i {
   font-size: 2rem; }
 
+@media (max-width: 991.98px) {
+  .navbar .navbar-brand {
+    max-width: 60%; } }
+
 .dropdown:hover > .dropdown-menu {
   display: block;
   max-height: 400px;

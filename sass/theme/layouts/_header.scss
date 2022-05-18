@@ -108,6 +108,14 @@
 	}
 }
 
+@include media-breakpoint-down(md) {
+	.navbar {
+		.navbar-brand {
+			max-width: 60%;
+		}
+	}
+}
+
 .dropdown:hover>.dropdown-menu {
   display: block;
   //For animation
